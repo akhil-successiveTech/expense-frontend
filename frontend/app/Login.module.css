@@ -1,0 +1,110 @@
+/* Login.module.css */
+
+.container {
+  position: relative; /* Position relative for absolute positioning of video */
+  display: flex;
+  justify-content: center; /* Center the form horizontally */
+  align-items: center; /* Center the form vertically */
+  height: 100vh; /* Full viewport height *//* Dark background */
+  margin: 0; /* Remove default margin */
+  overflow: hidden; /* Prevent scrolling */
+}
+
+.backgroundVideo {
+  position: absolute; /* Position the video absolutely */
+  top: 0; /* Align to the top */
+  left: 0; /* Align to the left */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  object-fit: cover; /* Cover the entire container */
+  z-index: -1;
+  /* Send the video behind other elements */
+}
+
+.formTile {
+  background-color: rgba(26, 26, 26, 0.8); /* Tile background color with transparency */
+  padding: 2rem; /* Padding for the tile */
+  border-radius: 1rem; /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7); /* Shadow for depth */
+  width: 300px; /* Fixed width for the tile */
+}
+
+.login {
+  color: #ffffff; /* Change the title color to white */
+  text-align: center; /* Center the title */
+  margin-bottom: 1.5rem; /* Space below the title */
+}
+
+.inputField {
+  width: 100%; /* Full width for input fields */
+  padding: 0.6rem; /* Padding for input fields */
+  border: none; /* Remove border */
+  border-radius: 0.5rem; /* Rounded corners */
+  background-color: #2a2a2a; /* Input background color */
+  color: #ffffff; /* Input text color */
+  font-size: 1rem; /* Font size */
+  margin-bottom: 1rem; /* Space below each input */
+  transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+.inputField:focus {
+  background-color: #3a3a3a; /* Darker background on focus */
+  outline: none; /* Remove outline */
+}
+
+.submitButton {
+  background: #396de7; /* Button color */
+  color: #ffffff; /* Button text color */
+  padding: 0.6rem; /* Padding for the button */
+  border: none; /* Remove border */
+  border-radius: 9999px; /* Fully rounded */
+  font-weight: 600; /* Bold text */
+  cursor: pointer; /* Pointer cursor */
+  transition: all 0.3s ease; /* Smooth transition */
+  width: 100%; /* Full width for the button */
+}
+
+.submitButton:hover {
+  transform: scale(1.05); /* Scale effect on hover */
+  box-shadow: 0 4px 20px rgba(57, 109, 231, 0.5); /* Shadow on hover */
+}
+
+.errorMessage {
+  color: #ff4d4d; /* Error message color */
+  text-align: center; /* Center the error message */
+  margin-top: 1rem; /* Space above the error message */
+}
+
+.googleButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem; /* space between icon and text */
+  background: #db4437; /* Google red */
+  color: #ffffff;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 9999px; /* pill shape */
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%; /* full width */
+  margin-top: 1rem; /* spacing below form */
+  font-size: 0.9rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.googleButton:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(219, 68, 55, 0.6); /* Google red glow */
+  background: #c1351d; /* darker red */
+}
+
+.googleIcon {
+  width: 20px;
+  height: 20px;
+  background: url("https://www.svgrepo.com/show/475656/google-color.svg")
+    no-repeat center center;
+  background-size: contain;
+}
+

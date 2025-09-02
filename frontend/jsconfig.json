@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",            
+    "paths": {
+      "@/*": ["*"]            
+    },
+    "checkJs": false,          // don't type-check JS
+    "types": []                // don't include extra type libraries
+  },
+  "include": ["**/*.js", "**/*.jsx", "app/category/page.jsx"]
+}

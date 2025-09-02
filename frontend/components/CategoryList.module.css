@@ -1,0 +1,26 @@
+.deleteButton {
+  background-color: #396de7; /* red for delete */
+  color: #ffffff;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.deleteButton:hover {
+  background-color: #396de7; /* lighter red on hover */
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(85, 162, 244, 0.4);
+}
+
+.expenseItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+  background-color: #1f1f1f; /* dark theme */
+  border-radius: 0.5rem;
+}

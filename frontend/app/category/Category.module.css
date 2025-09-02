@@ -1,0 +1,53 @@
+/* CategoryPage.module.css */
+
+.pageContainer {
+  background-color: #0d0d0d; /* Main background color */
+  color: #ffffff;
+  min-height: 100vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.subHeading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  color: #e0e0e0;
+}
+
+.logoutButton {
+  background: #396de7; /* Updated button color */
+  color: #ffffff;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 9999px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.logoutButton:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(57, 109, 231, 0.5); /* Updated shadow color */
+}
+
+.sectionContainer {
+  background-color: #1a1a1a; /* Section background color */
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+  transition: all 0.3s ease;
+}
+
+.sectionContainer:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.9);
+}

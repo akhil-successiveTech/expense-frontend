@@ -1,0 +1,42 @@
+/* CategoryForm.module.css */
+
+.formContainer {
+  display: flex; /* Use flexbox for horizontal layout */
+  gap: 1rem; /* Space between inputs */
+  background-color: #1a1a1a; /* Form background color */
+  padding: 1.5rem; /* Padding for the form */
+  border-radius: 1rem; /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7); /* Shadow for depth */
+}
+
+.inputField {
+  padding: 0.6rem; /* Padding for input fields */
+  border: none; /* Remove border */
+  border-radius: 0.5rem; /* Rounded corners */
+  background-color: #2a2a2a; /* Input background color */
+  color: #ffffff; /* Input text color */
+  font-size: 1rem; /* Font size */
+  flex: 1; /* Allow inputs to grow and fill space */
+  transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+.inputField:focus {
+  background-color: #3a3a3a; /* Darker background on focus */
+  outline: none; /* Remove outline */
+}
+
+.submitButton {
+  background: #396de7; /* Button color */
+  color: #ffffff; /* Button text color */
+  padding: 0.6rem 1.2rem; /* Padding for the button */
+  border: none; /* Remove border */
+  border-radius: 9999px; /* Fully rounded */
+  font-weight: 600; /* Bold text */
+  cursor: pointer; /* Pointer cursor */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.submitButton:hover {
+  transform: scale(1.05); /* Scale effect on hover */
+  box-shadow: 0 4px 20px rgba(57, 109, 231, 0.5); /* Shadow on hover */
+}
